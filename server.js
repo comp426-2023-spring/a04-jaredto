@@ -5,7 +5,7 @@ const { rps, rpsls } = require('./lib/rpsls');
 const minimist = require('minimist');
 
 const argv = minimist(process.argv.slice(2));
-const port = argv.port || 5000;
+const port = argv.port || 5555;
 
 const app = express();
 
